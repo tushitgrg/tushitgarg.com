@@ -17,51 +17,21 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+      Full Stack Developer
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+        I'm a 17-year-old full-stack developer with a deep passion for building and experimenting with innovative projects. Whether it's working with front-end technologies like Next.js or handling complex back-end logic, I love the challenge of bringing ideas to life through code. 
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
-          MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+        Constantly learning and exploring new tools and frameworks, I'm always pushing myself to improve and stay on the cutting edge of web development. I thrive on solving problems and turning concepts into functional, polished products. From personal experiments to collaborative projects, I'm driven by curiosity and the thrill of creating something new from scratch.
+      
+          
         </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+       
+     
+      
       </div>
     </section>
   );
