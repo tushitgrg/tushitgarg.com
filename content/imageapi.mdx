@@ -4,6 +4,8 @@ publishedAt: "2024-11-30"
 summary: "Simple Api"
 tags: "api"
 ---
+
+
 # Placeholder Image API: Create Custom Placeholder Images Easily
 
 Hello. this is my first true blog, had no idea, So i made a simple free api for web devs! This api allows people to make placeholder images on the go, rather than finding on internet. 
@@ -63,7 +65,7 @@ The API generates placeholder images based on the query parameters you provide i
 
 
 ## This is the Code in next js, if someone needs it
-
+```
     import { ImageResponse } from "next/og";
     export function GET(request: Request) {
     let url = new URL(request.url);
@@ -115,8 +117,8 @@ The API generates placeholder images based on the query parameters you provide i
     return new Response(imageResponse.body, {
         headers,
     });
-}
-
+    }
+```
 
 
 
